@@ -1,0 +1,3 @@
+from gpiozero import DigitalOutputDevice
+
+led = DigitalOutputDevice(2, 0) #pin and state
